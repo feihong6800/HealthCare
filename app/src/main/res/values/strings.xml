@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">HealthCare</string>
+    <string name="title_placeholder">Title</string>
+    <string name="news_placeholder">New Product</string>
+    <string name="sports_info_placeholder">Here is some new product</string>
+
+    <string-array name="sports_titles">
+        <item>APPETON</item>
+        <item>Badminton</item>
+        <item>Basketball</item>
+        <item>Bowling</item>
+        <item>Cycling</item>
+        <item>Golf</item>
+        <item>Running</item>
+        <item>Soccer</item>
+        <item>Swimming</item>
+        <item>Table Tennis</item>
+        <item>Tennis</item>
+    </string-array>
+
+    <string-array name="sports_info">
+        <item>Appeton offers a wide range of high quality health supplements and weight management products for healthy living.</item>
+        <item>ELLGY PLUS offers dermatological products such as crack heel cream and skin cream.</item>
+        <item>Here is some Basketball news!</item>
+        <item>Here is some Bowling news!</item>
+        <item>Here is some Cycling news!</item>
+        <item>Here is some Golf news!</item>
+        <item>Here is some Running news!</item>
+        <item>Here is some Soccer news!</item>
+        <item>Here is some Swimming news!</item>
+        <item>Here is some Table Tennis news!</item>
+        <item>Here is some Tennis news!</item>
+    </string-array>
+
+    <array name="sports_images">
+    <item>@drawable/abc</item>
+    <item>@drawable/b</item>
+    <item>@drawable/c</item>
+    <item>@drawable/d</item>
+    <item>@drawable/e</item>
+    <item>@drawable/f</item>
+    <item>@drawable/g</item>
+    </array>
+</resources>
