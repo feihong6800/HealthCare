@@ -8,7 +8,7 @@
     tools:context=".SignUp">
 
     <TextView
-        android:id="@+id/textView3"
+        android:id="@+id/title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Sign Up"
@@ -21,7 +21,7 @@
         app:layout_constraintVertical_bias="0.207" />
 
     <EditText
-        android:id="@+id/name"
+        android:id="@+id/username"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
@@ -66,9 +66,25 @@
         android:background="@color/login_red"
         android:text="Sign Up"
         android:onClick="openMain"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.73" />
+
+    <Button
+        android:id="@+id/bt_cancel"
+        android:layout_width="210dp"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:onClick="openMain"
+        android:text="Cancel"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.507"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.837" />
 </androidx.constraintlayout.widget.ConstraintLayout>
