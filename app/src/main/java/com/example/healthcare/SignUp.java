@@ -62,5 +62,6 @@ public class SignUp extends AppCompatActivity {
         Intent intent = new Intent(SignUp.this, MainActivity.class);
         intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
         startActivity(intent);
+
     }
 }
