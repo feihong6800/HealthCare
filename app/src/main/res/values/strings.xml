@@ -33,12 +33,12 @@
     </string-array>
 
     <array name="sports_images">
-    <item>@drawable/abc</item>
-    <item>@drawable/b</item>
-    <item>@drawable/c</item>
-    <item>@drawable/d</item>
-    <item>@drawable/e</item>
-    <item>@drawable/f</item>
-    <item>@drawable/g</item>
+        <item>@drawable/abc</item>
+        <item>@drawable/b</item>
+        <item>@drawable/c</item>
+        <item>@drawable/d</item>
+        <item>@drawable/e</item>
+        <item>@drawable/f</item>
+        <item>@drawable/g</item>
     </array>
 </resources>
