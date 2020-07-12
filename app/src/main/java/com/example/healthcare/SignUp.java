@@ -25,7 +25,6 @@ public class SignUp extends AppCompatActivity {
         password = findViewById(R.id.password);
         email = findViewById(R.id.email);
         btn_sigup = findViewById(R.id.bt_signup);
-        btn_cancel = findViewById(R.id.bt_cancel);
 
         databaseHelper = new DatabaseHelper(this);
 
