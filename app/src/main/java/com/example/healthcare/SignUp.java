@@ -14,7 +14,6 @@ public class SignUp extends AppCompatActivity {
 
     EditText username, password, email;
     Button btn_sigup, btn_cancel;
-
     DatabaseHelper databaseHelper;
 
     @Override

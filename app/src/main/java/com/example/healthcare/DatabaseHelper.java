@@ -18,6 +18,7 @@ public class DatabaseHelper extends SQLiteOpenHelper {
     public DatabaseHelper(Context context) {
         super(context, name, null, version);
         getWritableDatabase().execSQL(createTableUser);
+
     }
 
     public void insertUser(ContentValues contentValues)
