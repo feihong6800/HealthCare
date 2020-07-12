@@ -78,13 +78,14 @@ public class Product extends AppCompatActivity {
     private void initializeData() {
         String[] sportsList = getResources().getStringArray(R.array.sports_titles);
         String[] sportsInfo = getResources().getStringArray(R.array.sports_info);
+        String[] sportsDetail  = getResources().getStringArray(R.array.sports_detail);
 
         TypedArray sportsResImage = getResources().obtainTypedArray(R.array.sports_images);
 
         mProductData.clear();
 
         for (int i = 0; i < sportsList.length; i++) {
-            mProductData.add(new Products(sportsList[i], sportsInfo[i], sportsResImage.getResourceId(i, 0)));
+            mProductData.add(new Products(sportsList[i], sportsInfo[i], sportsDetail[i], sportsResImage.getResourceId(i, 0)));
         }
 
         sportsResImage.recycle();
@@ -94,6 +95,7 @@ public class Product extends AppCompatActivity {
 
     public void openProduct(MenuItem item) {
         Intent intent = new Intent(this, Product.class);
+        intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
         startActivity(intent);
     }
 

@@ -45,6 +45,7 @@ class ProductsAdapter extends RecyclerView.Adapter<ProductsAdapter.ViewHolder> {
             Intent i = new Intent(mContext,ProductDetail.class);
             i.putExtra("title",currentProduct.getTitle());
             i.putExtra("info",currentProduct.getInfo());
+            i.putExtra("detail", currentProduct.getDetail());
             i.putExtra("image",currentProduct.getImageResource());
             mContext.startActivity(i);
         }

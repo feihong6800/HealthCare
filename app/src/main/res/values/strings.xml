@@ -3,9 +3,10 @@
     <string name="title_placeholder">Title</string>
     <string name="news_placeholder">New Product</string>
     <string name="sports_info_placeholder">Here is some new product</string>
+    <string name="sports_detail_placeholder">Here is the Detail of the product</string>
 
     <string-array name="sports_titles">
-        <item>APPETON</item>
+        <item>Nature Bounty Anxiety &amp; Stress Relief Ashwagandha KSM66 50 Tablets</item>
         <item>Badminton</item>
         <item>Basketball</item>
         <item>Bowling</item>
@@ -19,7 +20,24 @@
     </string-array>
 
     <string-array name="sports_info">
-        <item>Appeton offers a wide range of high quality health supplements and weight management products for healthy living.</item>
+        <item><b>RM 67.00</b></item>
+        <item>ELLGY PLUS offers dermatological products such as crack heel cream and skin cream.</item>
+        <item>Here is some Basketball news!</item>
+        <item>Here is some Bowling news!</item>
+        <item>Here is some Cycling news!</item>
+        <item>Here is some Golf news!</item>
+        <item>Here is some Running news!</item>
+        <item>Here is some Soccer news!</item>
+        <item>Here is some Swimming news!</item>
+        <item>Here is some Table Tennis news!</item>
+        <item>Here is some Tennis news!</item>
+    </string-array>
+
+    <string-array name="sports_detail">
+        <item>For nearly 50 years we have been making trusted product, backed by science,
+            and made with only the purest ingredients guaranteed. So you can get the most out of life every day.
+            200 mg of L-Theanine per serving Supports a calm.
+            relaxed mood Guaranteed Quality Laboratory Tested</item>
         <item>ELLGY PLUS offers dermatological products such as crack heel cream and skin cream.</item>
         <item>Here is some Basketball news!</item>
         <item>Here is some Bowling news!</item>
