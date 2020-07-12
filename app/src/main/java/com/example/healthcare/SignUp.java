@@ -36,6 +36,7 @@ public class SignUp extends AppCompatActivity {
                 String passwordValue = password.getText().toString();
                 String emailValue = email.getText().toString();
 
+
                 if(emailValue.length() > 1)
                 {
                     ContentValues contentValues = new ContentValues();
