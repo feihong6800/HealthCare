@@ -21,7 +21,7 @@
 
     <string-array name="sports_info">
         <item><b>RM 67.00</b></item>
-        <item>ELLGY PLUS offers dermatological products such as crack heel cream and skin cream.</item>
+        <item><b>RM 32.00</b></item>
         <item>Here is some Basketball news!</item>
         <item>Here is some Bowling news!</item>
         <item>Here is some Cycling news!</item>
@@ -38,7 +38,28 @@
             and made with only the purest ingredients guaranteed. So you can get the most out of life every day.
             200 mg of L-Theanine per serving Supports a calm.
             relaxed mood Guaranteed Quality Laboratory Tested</item>
-        <item>ELLGY PLUS offers dermatological products such as crack heel cream and skin cream.</item>
+        <item>BiO-LiFE Multivitamins with Minerals are needed for optimum vitality,
+            better health and it helps to supplement an unbalanced diet in an excellent once-a-day dose.
+            Multivitamins and minerals contains 18 types of vitamins and mineral in maintaining every day well-being.
+            \n\n<b>How does Multivitamin with minerals help?</b>
+            \nVitamin A is essential for the functioning of eyes
+            \nVitamin D3 is needed for the absorption and utilization of calcium and phosphorus
+            \nVitamin E helps in the red blood cells production
+            \nVitamin B1 aids in the maintenance of growth, vision and tissue differentiation
+            \nVitamin B2 helps the body to utilize energy from food
+            \nVitamin B3 helps the body in utilization of energy from food
+            \nVitamin B5 helps to metabolize fats and carbohydrates
+            \nVitamin B6 helps the body to metabolize proteins, fats and carbohydrates
+            \nVitamin C is needed for healthy bones, teeth, gums and general well-being
+            \nCalcium helps in development of strong bones and teeth
+            \nMagnesium is an essential component of bone and cartilage
+            \nIron is needed in the red blood cell formation
+            \nZinc is needed for growth
+            \nVitamin B12 aids in the formation of red blood cell
+            \nFolic acid aids in the formation of red blood cells
+            \nBiotin helps to metabolize fats and carbohydrates
+            \nIodine is essential for the formation of thyroid hormone
+            \nSelenium helps to protect cellular tissues and membranes against oxidative damage.</item>
         <item>Here is some Basketball news!</item>
         <item>Here is some Bowling news!</item>
         <item>Here is some Cycling news!</item>
@@ -52,7 +73,7 @@
 
     <array name="sports_images">
         <item>@drawable/abc</item>
-        <item>@drawable/b</item>
+        <item>@drawable/bio_life</item>
         <item>@drawable/c</item>
         <item>@drawable/d</item>
         <item>@drawable/e</item>
