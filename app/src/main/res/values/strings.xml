@@ -2,10 +2,10 @@
     <string name="app_name">HealthCare</string>
     <string name="title_placeholder">Title</string>
     <string name="news_placeholder">Coming Product</string>
-    <string name="sports_info_placeholder">Here is some new product</string>
-    <string name="sports_detail_placeholder">Here is the Detail of the product</string>
+    <string name="info_placeholder">Here is some new product</string>
+    <string name="detail_placeholder">Here is the Detail of the product</string>
 
-    <string-array name="sports_titles">
+    <string-array name="product_title">
         <item>Nature Bounty Anxiety &amp; Stress Relief Ashwagandha KSM66 50 Tablets</item>
         <item>African Mango Seed Extract 150mg</item>
         <item>All Natural Acai Lip Balm</item>
@@ -15,7 +15,7 @@
         <item>Delicious Gummy Omega 3</item>
     </string-array>
 
-    <string-array name="sports_info">
+    <string-array name="product_price">
         <item><b>RM 67.00</b></item>
         <item><b>RM 82.00</b></item>
         <item><b>RM 57.00</b></item>
@@ -25,7 +25,7 @@
         <item><b>RM 57.00</b></item>
     </string-array>
 
-    <string-array name="sports_detail">
+    <string-array name="product_detail">
         <item>For nearly 50 years we have been making trusted product, backed by science,and made with only the purest ingredients guaranteed. So you can get the most out of life every day. 200 mg of L-Theanine per serving supports a calm. Relaxed mood Guaranteed Quality Laboratory Tested</item>
 
         <item>African mango is a powerful supplement that can boost overall health, assists in maintenance of the general well-being.</item>
@@ -45,7 +45,7 @@
         <item>Yummy Gummies Omega-3 can help top up your child\'s intake. The body can produce omega-3 on its own, so your child need to get it from their diet.</item>
     </string-array>
 
-    <array name="sports_images">
+    <array name="product_image">
         <item>@drawable/abc</item>
         <item>@drawable/mango</item>
         <item>@drawable/c</item>
@@ -54,4 +54,9 @@
         <item>@drawable/bio</item>
         <item>@drawable/h</item>
     </array>
+
+    <string name="home_title_placeholder">Title</string>
+    <string name="home_placeholder">Famous Product</string>
+    <string name="home_info_placeholder">Here is some new product</string>
+    <string name="home_detail_placeholder">Here is the Detail of the product</string>
 </resources>

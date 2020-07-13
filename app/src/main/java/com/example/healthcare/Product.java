@@ -61,19 +61,19 @@ public class Product extends AppCompatActivity {
     }
 
     private void initializeData() {
-        String[] sportsList = getResources().getStringArray(R.array.sports_titles);
-        String[] sportsInfo = getResources().getStringArray(R.array.sports_info);
-        String[] sportsDetail  = getResources().getStringArray(R.array.sports_detail);
+        String[] productTitle = getResources().getStringArray(R.array.product_title);
+        String[] productPrice = getResources().getStringArray(R.array.product_price);
+        String[] productDetail  = getResources().getStringArray(R.array.product_detail);
 
-        TypedArray sportsResImage = getResources().obtainTypedArray(R.array.sports_images);
+        TypedArray productsResImage = getResources().obtainTypedArray(R.array.product_image);
 
         mProductData.clear();
 
-        for (int i = 0; i < sportsList.length; i++) {
-            mProductData.add(new Products(sportsList[i], sportsInfo[i], sportsDetail[i], sportsResImage.getResourceId(i, 0)));
+        for (int i = 0; i < productTitle.length; i++) {
+            mProductData.add(new Products(productTitle[i], productPrice[i], productDetail[i], productsResImage.getResourceId(i, 0)));
         }
 
-        sportsResImage.recycle();
+        productsResImage.recycle();
 
         mAdapter.notifyDataSetChanged();
     }
