@@ -8,6 +8,10 @@
     android:id="@+id/drawerLayout"
     tools:context=".ProductDetail">
 
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
     <RelativeLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -63,4 +67,6 @@
             android:padding="8dp"
             android:text="@string/sports_detail_placeholder" />
     </RelativeLayout>
+
+    </ScrollView>
 </androidx.drawerlayout.widget.DrawerLayout>

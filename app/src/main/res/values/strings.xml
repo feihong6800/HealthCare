@@ -1,83 +1,57 @@
 <resources>
     <string name="app_name">HealthCare</string>
     <string name="title_placeholder">Title</string>
-    <string name="news_placeholder">New Product</string>
+    <string name="news_placeholder">Coming Product</string>
     <string name="sports_info_placeholder">Here is some new product</string>
     <string name="sports_detail_placeholder">Here is the Detail of the product</string>
 
     <string-array name="sports_titles">
         <item>Nature Bounty Anxiety &amp; Stress Relief Ashwagandha KSM66 50 Tablets</item>
-        <item>Badminton</item>
-        <item>Basketball</item>
-        <item>Bowling</item>
-        <item>Cycling</item>
-        <item>Golf</item>
-        <item>Running</item>
-        <item>Soccer</item>
-        <item>Swimming</item>
-        <item>Table Tennis</item>
-        <item>Tennis</item>
+        <item>African Mango Seed Extract 150mg</item>
+        <item>All Natural Acai Lip Balm</item>
+        <item>Apple Cider Vinegar + Garcinia &amp; Lutein</item>
+        <item>Bilberry &amp; Lutein</item>
+        <item>Bio Turmeric 3000</item>
+        <item>Delicious Gummy Omega 3</item>
     </string-array>
 
     <string-array name="sports_info">
         <item><b>RM 67.00</b></item>
-        <item><b>RM 32.00</b></item>
+        <item><b>RM 82.00</b></item>
         <item><b>RM 57.00</b></item>
-        <item>Here is some Bowling news!</item>
-        <item>Here is some Cycling news!</item>
-        <item>Here is some Golf news!</item>
-        <item>Here is some Running news!</item>
-        <item>Here is some Soccer news!</item>
-        <item>Here is some Swimming news!</item>
-        <item>Here is some Table Tennis news!</item>
-        <item>Here is some Tennis news!</item>
+        <item><b>RM 107.00</b></item>
+        <item><b>RM 209.00</b></item>
+        <item><b>RM 499.00</b></item>
+        <item><b>RM 57.00</b></item>
     </string-array>
 
     <string-array name="sports_detail">
-        <item>For nearly 50 years we have been making trusted product, backed by science,
-            and made with only the purest ingredients guaranteed. So you can get the most out of life every day.
-            200 mg of L-Theanine per serving Supports a calm.
-            relaxed mood Guaranteed Quality Laboratory Tested</item>
-        <item>BiO-LiFE Multivitamins with Minerals are needed for optimum vitality,
-            better health and it helps to supplement an unbalanced diet in an excellent once-a-day dose.
-            Multivitamins and minerals contains 18 types of vitamins and mineral in maintaining every day well-being.
-            \n\n<b>How does Multivitamin with minerals help?</b>
-            \nVitamin A is essential for the functioning of eyes
-            \nVitamin D3 is needed for the absorption and utilization of calcium and phosphorus
-            \nVitamin E helps in the red blood cells production
-            \nVitamin B1 aids in the maintenance of growth, vision and tissue differentiation
-            \nVitamin B2 helps the body to utilize energy from food
-            \nVitamin B3 helps the body in utilization of energy from food
-            \nVitamin B5 helps to metabolize fats and carbohydrates
-            \nVitamin B6 helps the body to metabolize proteins, fats and carbohydrates
-            \nVitamin C is needed for healthy bones, teeth, gums and general well-being
-            \nCalcium helps in development of strong bones and teeth
-            \nMagnesium is an essential component of bone and cartilage
-            \nIron is needed in the red blood cell formation
-            \nZinc is needed for growth
-            \nVitamin B12 aids in the formation of red blood cell
-            \nFolic acid aids in the formation of red blood cells
-            \nBiotin helps to metabolize fats and carbohydrates
-            \nIodine is essential for the formation of thyroid hormone
-            \nSelenium helps to protect cellular tissues and membranes against oxidative damage.</item>
-        <item>Here is some Basketball news!</item>
-        <item>Here is some Bowling news!</item>
-        <item>Here is some Cycling news!</item>
-        <item>Here is some Golf news!</item>
-        <item>Here is some Running news!</item>
-        <item>Here is some Soccer news!</item>
-        <item>Here is some Swimming news!</item>
-        <item>Here is some Table Tennis news!</item>
-        <item>Here is some Tennis news!</item>
+        <item>For nearly 50 years we have been making trusted product, backed by science,and made with only the purest ingredients guaranteed. So you can get the most out of life every day. 200 mg of L-Theanine per serving supports a calm. Relaxed mood Guaranteed Quality Laboratory Tested</item>
+
+        <item>African mango is a powerful supplement that can boost overall health, assists in maintenance of the general well-being.</item>
+
+        <item>Healthy Care Acai Lip Balm is an ultra hydrating lip balm containing? The powerful Acai Berry oil which is cold-pressed from the seed of the Acai Berry. This deep purple berry grows in the Brazilian Rainforests CONTAINS Vitamin B1, B2, B3, C and E as well as healthy Omega-3, 6, and 9 and is rich in free radicalsfighting antioxidants.
+            \n\nThis natural lip balm also moisturizes lips with ingredients like ultra-emollient oil as castor oil and sunflower oil, and seals in hydration with beeswax.</item>
+
+        <item>Healthy Care Apple Cider Vinegar + Garcinia, a combination of naturally fermented sweet apple cider and Garcinia extract, providing a healthy dose of acetic acid and hydroxycitric acid (HCA) may support healthy appetite.
+            \n\nTo reach a holistic weight plan take it in combination with a program of reduced intake of dietary calories and increased physical activity.</item>
+
+        <item>Healthy Care Bilberry &amp; Lutein may help to support healthy eye function by providing antioxidant nutrients important to the macular region of the eye. The eye is susceptible to oxidative damage as it is constantly exposed to the effects of light and oxygen. It is important for the eyes to rely on sufficient nutritional antioxidant support to neutralize the effects of free radicals.
+            \n\nBilberry is used for improving eyesight, including night vision. The key constituents of bilberry are the anthocyanosides, which give antioxidant properties. It helps maintain the normal function of retina, and also help the healthy microcirculation of the eye.
+            \n\nLutein is a kind of carotenoid found in the retina and is highly concentrated in the macula where it forms the macular pigment. It helps to filter blue light and may help to protect the macula from light induced damage, and also help scavenge free radicals in the eye.</item>
+
+        <item>Turmeric comes from the root of the Curcuma longa plant and has a brown skin and deep orange flesh. Turmeric has long been used as an anti-inflammation agent to relieve the pain of arthritis and mild osteoarthritis. It can also relieve the symptoms of medica.</item>
+
+        <item>Yummy Gummies Omega-3 can help top up your child\'s intake. The body can produce omega-3 on its own, so your child need to get it from their diet.</item>
     </string-array>
 
     <array name="sports_images">
         <item>@drawable/abc</item>
-        <item>@drawable/bio_life</item>
+        <item>@drawable/mango</item>
         <item>@drawable/c</item>
-        <item>@drawable/d</item>
-        <item>@drawable/e</item>
+        <item>@drawable/apple</item>
         <item>@drawable/f</item>
-        <item>@drawable/g</item>
+        <item>@drawable/bio</item>
+        <item>@drawable/h</item>
     </array>
 </resources>
