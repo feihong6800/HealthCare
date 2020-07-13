@@ -4,6 +4,7 @@ import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.view.GravityCompat;
 import androidx.drawerlayout.widget.DrawerLayout;
+import androidx.viewpager.widget.ViewPager;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -16,6 +17,8 @@ import android.widget.Toast;
 import com.google.android.material.navigation.NavigationView;
 
 public class Home extends AppCompatActivity {
+    ViewPager viewPager;
+    SlideShowAdapter adapter;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -33,6 +36,12 @@ public class Home extends AppCompatActivity {
         });
         NavigationView navigationView = findViewById(R.id.navigationView);
         navigationView.setItemIconTintList(null);
+
+        viewPager = findViewById(R.id.viepage);
+
+        adapter = new SlideShowAdapter(this);
+
+        viewPager.setAdapter(adapter);
     }
 
     public void openProduct(MenuItem item) {
@@ -47,5 +56,11 @@ public class Home extends AppCompatActivity {
         intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
         startActivity(intent);
         finish();
+    }
+
+    public void openProduct(View view) {
+        Intent intent = new Intent(this, Product.class);
+        intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+        startActivity(intent);
     }
 }

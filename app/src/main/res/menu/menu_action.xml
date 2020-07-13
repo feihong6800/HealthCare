@@ -10,9 +10,9 @@
         android:icon="@drawable/ic_shopping"
         android:title="Shopping"/>
     <item
-        android:id="@+id/product"
+        android:id="@+id/coming_product"
         android:icon="@drawable/box"
-        android:title="Product"
+        android:title="Coming Product"
         android:onClick="openProduct"/>
 
     <item
