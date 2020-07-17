@@ -61,8 +61,7 @@ public class ProductDetailActivity extends AppCompatActivity {
                     ALREADY_ADDED_TO_WISHLIST = false;
                     addToWishlistBtn.setSupportBackgroundTintList(ColorStateList.valueOf(Color.parseColor("#9e9e9e")));
                 }
-                else
-                {
+                else {
                     ALREADY_ADDED_TO_WISHLIST = true;
                     addToWishlistBtn.setSupportBackgroundTintList(getResources().getColorStateList(R.color.login_red));
                 }
