@@ -1,28 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto">
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
     <item
-        android:id="@+id/account"
-        android:icon="@drawable/ic_account"
-        android:title="Account"/>
+        android:id="@+id/nav_home"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="Home"/>
     <item
-        android:id="@+id/shopping"
+        android:id="@+id/cart"
         android:icon="@drawable/ic_shopping"
-        android:title="Shopping"/>
+        android:title="Cart"/>
     <item
         android:id="@+id/coming_product"
-        android:icon="@drawable/box"
-        android:title="Coming Product"
-        android:onClick="openProduct"/>
-
+        android:icon="@drawable/ic_new"
+        android:title="Coming Product"/>
     <item
         android:id="@+id/history"
         android:icon="@drawable/ic_history"
         android:title="History"/>
-
     <item
         android:id="@+id/logout"
         android:icon="@drawable/ic_out"
-        android:onClick="logOut"
         android:title="Log Out"/>
 </menu>
