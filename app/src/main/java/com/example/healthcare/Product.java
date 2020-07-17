@@ -77,17 +77,4 @@ public class Product extends AppCompatActivity {
 
         mAdapter.notifyDataSetChanged();
     }
-
-    public void openProduct(MenuItem item) {
-        Intent intent = new Intent(this, Product.class);
-        intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
-        startActivity(intent);
-    }
-
-    public void logOut(MenuItem item) {
-        Toast.makeText(this, "Thank You. Have a nice day", Toast.LENGTH_SHORT).show();
-        Intent intent = new Intent(this, MainActivity.class);
-        intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
-        startActivity(intent);
-    }
 }
